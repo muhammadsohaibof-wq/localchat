@@ -3,3 +3,24 @@ dist/
 build/
 .DS_Store
 *.log
+
+# Exclude all source code
+src/
+app/
+assets/
+resources/
+*.ts
+*.js
+*.json
+*.css
+*.html
+*.png
+*.ico
+*.gif
+*.asar
+capacitor.config.*
+tsconfig.json
+live-runner.js
+package.json
+package-lock.json
+electron-builder.config.json
