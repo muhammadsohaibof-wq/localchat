@@ -1,0 +1,33 @@
+{
+  "appId": "com.localchat.app",
+  "productName": "Local Chat",
+  "directories": {
+    "buildResources": "resources"
+  },
+  "files": [
+    "assets/**/*",
+    "build/**/*",
+    "capacitor.config.*",
+    "app/**/*"
+  ],
+  "publish": {
+    "provider": "github",
+    "owner": "muhammadsohaibof-wq",
+    "repo": "localchat"
+  },
+  "nsis": {
+    "allowElevation": true,
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "shortcutName": "Local Chat"
+  },
+  "win": {
+    "target": "nsis",
+    "icon": "app/logo.png"
+  },
+  "mac": {
+    "category": "public.app-category.social-networking",
+    "target": "dmg",
+    "icon": "app/logo.png"
+  }
+}
